@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strana PLÁN – Pravicová prosperita pro moderní budoucnost</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1a1a1a;
+            background: #ffffff;
+        }
+
+        /* NAV */
+        nav {
+            background: #004B93;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            text-decoration: none;
+            padding: 0.6rem 0;
+        }
+
+        .nav-logo img {
+            height: 44px;
+            width: 44px;
+            border-radius: 50%;
+        }
+
+        .nav-logo span {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #ffffff;
+            letter-spacing: 2px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 0.25rem;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 1rem 1.1rem;
+            display: block;
+            font-weight: 500;
+            transition: background 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(255,255,255,0.1);
+            border-bottom: 3px solid #B22234;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #fff;
+            border-radius: 2px;
+            transition: 0.3s;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #004B93 0%, #002d5a 100%);
+            color: #ffffff;
+            text-align: center;
+            padding: 6rem 2rem 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: #B22234;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: 4px;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.35rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            background: #B22234;
+            color: #fff;
+            padding: 0.9rem 2.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.05rem;
+            transition: background 0.2s;
+        }
+
+        .hero .btn:hover {
+            background: #8b1a29;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 4rem 2rem;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #004B93;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #B22234;
+            display: inline-block;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .placeholder-box {
+            background: #f0f4f8;
+            border: 2px dashed #004B93;
+            border-radius: 8px;
+            padding: 3rem 2rem;
+            text-align: center;
+            color: #004B93;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+        }
+
+        /* KONTAKT */
+        #kontakt .info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        /* PRIPOJ SE */
+        #pripoj-se .cta-box {
+            background: linear-gradient(135deg, #004B93, #002d5a);
+            color: #fff;
+            border-radius: 8px;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        #pripoj-se .cta-box h3 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+        }
+
+        #pripoj-se .cta-box p {
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 1.5rem;
+        }
+
+        #pripoj-se .cta-box .btn {
+            display: inline-block;
+            background: #B22234;
+            color: #fff;
+            padding: 0.8rem 2.2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: background 0.2s;
+        }
+
+        #pripoj-se .cta-box .btn:hover {
+            background: #8b1a29;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #002d5a;
+            color: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 1.5rem 2rem;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* DIVIDER */
+        .section-divider {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #B22234, transparent);
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #004B93;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .nav-links a {
+                padding: 1rem 2rem;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGACE -->
+<nav>
+    <a href="#home" class="nav-logo">
+        <img src="logo.png" alt="Logo PLÁN">
+        <span>PLÁN</span>
+    </a>
+    <div class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#priority">Priority</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#pripoj-se">Připoj se</a></li>
+    </ul>
+</nav>
+
+<!-- HOME -->
+<section class="hero" id="home">
+    <h1>PLÁN</h1>
+    <p>Pravicová prosperita pro moderní budoucnost.</p>
+    <a href="#pripoj-se" class="btn">Připoj se k nám</a>
+</section>
+
+<!-- PRIORITY -->
+<hr class="section-divider">
+<section id="priority">
+    <h2>Priority</h2>
+    <div class="placeholder-box">
+        📋 Obsah priorit bude brzy doplněn.
+    </div>
+</section>
+
+<!-- PROGRAM -->
+<hr class="section-divider">
+<section id="program">
+    <h2>Program</h2>
+    <div class="placeholder-box">
+        📄 Programové body budou brzy doplněny.
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<hr class="section-divider">
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <div class="placeholder-box">
+        📬 Kontaktní údaje budou brzy doplněny.
+    </div>
+</section>
+
+<!-- PŘIPOJ SE -->
+<hr class="section-divider">
+<section id="pripoj-se">
+    <h2>Připoj se</h2>
+    <div class="cta-box">
+        <h3>Staň se součástí PLÁNu</h3>
+        <p>Chceš změnit budoucnost? Přidej se k nám a společně prosadíme prosperitu.</p>
+        <a href="mailto:kontakt@stranaplan.cz" class="btn">Kontaktuj nás</a>
+    </div>
+</section>
+
+<!-- PATIČKA -->
+<footer>
+    <p>© 2026 Strana PLÁN. Všechna práva vyhrazena. | Vytvořeno s pomocí <a href="https://ampcode.com" target="_blank">Amp</a></p>
+</footer>
+
+</body>
+</html>
