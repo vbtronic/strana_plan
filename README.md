@@ -22,7 +22,7 @@ Stránky jsou hostovány přes [GitHub Pages](https://vbtronic.github.io/strana_
 
 ## 📜 Licence
 
-© 2026 Strana PLÁN. Všechna práva vyhrazena.
+© 2026 Viktor Brunclík. Všechna práva vyhrazena.
 
 ---
 
