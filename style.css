@@ -3,10 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     cursor: default !important;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
-a, button, .btn, .hamburger, .nav-links a, .nav-logo, .feature-card {
+a, button, .btn, .hamburger {
     cursor: pointer !important;
+}
+
+input, textarea {
+    cursor: text !important;
+    -webkit-user-select: auto;
+    user-select: auto;
 }
 
 :root {
@@ -149,7 +157,6 @@ nav {
     height: 120px;
     border-radius: 50%;
     margin-bottom: 1.5rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 
 .hero h1 {
