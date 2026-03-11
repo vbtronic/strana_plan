@@ -473,6 +473,32 @@ nav {
     gap: 1rem;
 }
 
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.form-checkbox input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--blue);
+    cursor: pointer !important;
+    flex-shrink: 0;
+}
+
+.form-checkbox label {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    cursor: pointer !important;
+    -webkit-user-select: auto;
+    user-select: auto;
+}
+
+.form-checkbox label a {
+    color: var(--blue);
+}
+
 /* FOOTER */
 footer {
     background: var(--blue-dark);
