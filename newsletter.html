@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter – PLÁN</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="nav-logo">
+        <img src="logo.svg" alt="Logo PLÁN">
+        <span>PLÁN</span>
+    </a>
+    <div class="hamburger" onclick="this.classList.toggle('active');document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="priority.html">Priority</a></li>
+        <li><a href="program.html">Program</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="pripoj-se.html">Připoj se</a></li>
+    </ul>
+</nav>
+
+<div class="page-header">
+    <h1>Newsletter</h1>
+    <p>Buďte v obraze o dění strany PLÁN</p>
+    <div class="wave">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,60 C360,120 1080,0 1440,60 L1440,120 L0,120 Z" fill="#ffffff"/>
+        </svg>
+    </div>
+</div>
+
+<div class="page-content">
+    <div class="program-block">
+        <h2>Odebírejte novinky</h2>
+        <p style="margin-bottom: 1.5rem; color: var(--text-light);">Žádný spam, jen důležité zprávy o činnosti strany PLÁN. Odhlásit se můžete kdykoliv.</p>
+        <form action="https://formsubmit.co/stranaplan@gmail.com" method="POST" class="contact-form">
+            <input type="hidden" name="_subject" value="Nový odběratel newsletteru PLÁN">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_next" value="https://vbtronic.github.io/strana_plan/newsletter.html">
+            <div class="form-row">
+                <div class="form-group" style="flex: 1;">
+                    <label for="nl-name">Jméno</label>
+                    <input type="text" id="nl-name" name="name" required>
+                </div>
+                <div class="form-group" style="flex: 1;">
+                    <label for="nl-email">E-mail</label>
+                    <input type="email" id="nl-email" name="email" required>
+                </div>
+            </div>
+            <button type="submit" class="btn">Odebírat</button>
+        </form>
+    </div>
+
+    <div class="notes-section" style="margin-top: 2rem;">
+        <h2>Jak to funguje</h2>
+        <ul>
+            <li>Po odeslání formuláře obdržíme vaše jméno a e-mail.</li>
+            <li>Budeme vás informovat o důležitých novinkách strany PLÁN.</li>
+            <li>Odhlášení je možné kdykoliv – stačí napsat na <a href="mailto:stranaplan@gmail.com">stranaplan@gmail.com</a>.</li>
+            <li>Vaše údaje nezpracováváme pro jiné účely. Více v <a href="ochrana-udaju.html">Ochraně údajů</a>.</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Viktor Brunclík. Všechna práva vyhrazena. | Vytvořeno s pomocí <a href="https://ampcode.com" target="_blank">Amp</a> | <a href="ochrana-udaju.html">Ochrana údajů</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
