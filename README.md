@@ -1,12 +1,10 @@
 # 🇨🇿 Strana PLÁN
 
+### 🔗 [Live site](https://vbtronic.github.io/strana_plan/)
+
 **Pravicová prosperita pro moderní budoucnost.**
 
 Oficiální webové stránky politické strany PLÁN.
-
-## 🌐 Web
-
-Stránky jsou hostovány přes [GitHub Pages](https://vbtronic.github.io/strana_plan/).
 
 ## 📁 Struktura
 
