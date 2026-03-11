@@ -11,6 +11,10 @@ a, button, .btn, .hamburger {
     cursor: pointer !important;
 }
 
+h1, h2, h3, h4, h5, h6, p, span, li, div, section, footer, nav, main, header {
+    cursor: default !important;
+}
+
 input, textarea {
     cursor: text !important;
     -webkit-user-select: auto;
@@ -155,8 +159,10 @@ nav {
 .hero-logo {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
     margin-bottom: 1.5rem;
+    background: none;
+    border: none;
+    outline: none;
 }
 
 .hero h1 {
@@ -358,13 +364,13 @@ nav {
 .notes-section {
     margin-top: 3rem;
     padding: 1.5rem 2rem;
-    background: #fff8e1;
+    background: var(--gray-bg);
     border-radius: 12px;
-    border-left: 4px solid #f9a825;
+    border-left: 4px solid var(--red);
 }
 
 .notes-section h2 {
-    color: #e65100;
+    color: var(--blue);
     font-size: 1.2rem;
     margin-bottom: 0.75rem;
 }
