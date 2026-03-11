@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="256" cy="256" r="256"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="512" height="512" fill="#B22234"/>
+    <path d="M0,80 Q128,0 256,60 Q384,120 512,40 L512,200 Q384,280 256,220 Q128,160 0,240 Z" fill="#004B93"/>
+    <path d="M0,280 Q128,200 256,260 Q384,320 512,240 L512,400 Q384,480 256,420 Q128,360 0,440 Z" fill="#004B93"/>
+    <path d="M0,0 Q128,80 256,20 Q384,-40 512,40 L512,0 Z" fill="#004B93"/>
+    <path d="M0,440 Q128,360 256,420 Q384,480 512,400 L512,512 L0,512 Z" fill="#004B93"/>
+  </g>
+  <text x="256" y="275" text-anchor="middle" font-family="'Segoe UI',system-ui,sans-serif" font-size="140" font-weight="800" fill="white" letter-spacing="4">PLÁN</text>
+</svg>
