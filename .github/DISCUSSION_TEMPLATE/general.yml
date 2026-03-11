@@ -1,0 +1,14 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vítejte v diskuzi strany PLÁN! Dodržujte prosím pravidla slušného chování.
+        Příspěvky porušující pravidla budou odstraněny.
+  - type: textarea
+    attributes:
+      label: Váš příspěvek
+      description: Napište svůj názor nebo dotaz
+    validations:
+      required: true

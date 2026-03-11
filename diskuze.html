@@ -39,23 +39,32 @@
 </div>
 
 <div class="page-content">
-    <p style="color: var(--text-light); margin-bottom: 2rem;">Pro zapojení do diskuze se přihlaste přes svůj GitHub účet. Vaše příspěvky se ukládají v <a href="https://github.com/vbtronic/strana_plan/discussions" target="_blank">GitHub Discussions</a>.</p>
+    <div class="program-block">
+        <p>Pro zapojení do diskuze se přihlaste přes svůj GitHub účet. Vaše příspěvky jsou veřejné a ukládají se v <a href="https://github.com/vbtronic/strana_plan/discussions" target="_blank">GitHub Discussions</a>. Příspěvky porušující pravidla budou automaticky nebo ručně odstraněny.</p>
+    </div>
 
-    <script src="https://giscus.app/client.js"
-        data-repo="vbtronic/strana_plan"
-        data-repo-id="R_kgDORjqIug"
-        data-category="General"
-        data-category-id="DIC_kwDORjqIus4C4Ku1"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="cs"
-        crossorigin="anonymous"
-        async>
-    </script>
+    <div class="form-checkbox" style="margin: 1.5rem 0;">
+        <input type="checkbox" id="discuss-consent" onclick="document.getElementById('giscus-container').style.display = this.checked ? 'block' : 'none'">
+        <label for="discuss-consent">Souhlasím se <a href="ochrana-udaju.html" target="_blank">zpracováním osobních údajů</a> a beru na vědomí, že mé příspěvky jsou veřejné</label>
+    </div>
+
+    <div id="giscus-container" style="display: none;">
+        <script src="https://giscus.app/client.js"
+            data-repo="vbtronic/strana_plan"
+            data-repo-id="R_kgDORjqIug"
+            data-category="General"
+            data-category-id="DIC_kwDORjqIus4C4Ku1"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="light"
+            data-lang="cs"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </div>
 </div>
 
 <footer>
