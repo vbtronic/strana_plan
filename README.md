@@ -1,27 +1,51 @@
-# 🇨🇿 Strana PLÁN
+# PLÁN – neoficiální politická iniciativa
 
-### 🔗 [Live site](https://vbtronic.github.io/strana_plan/)
+**[stranaplan.cz](https://stranaplan.cz)** · Slogan: **NELŽETE občanům™**
 
-**Pravicová prosperita pro moderní budoucnost.**
+Česká politika potřebuje reálný kapitalismus, vyrovnaný rozpočet, vymahatelnou spravedlnost
+a osobní odpovědnost. Odmítáme populistické sliby na dluh. Program je založen na datech,
+efektivitě státu a absolutní otevřenosti vůči občanům.
 
-Oficiální webové stránky politické strany PLÁN.
+> PLÁN je **neoficiální politická iniciativa**. Nejde o registrovanou politickou stranu ani
+> o politické hnutí.
 
-## 📁 Struktura
+Sledujte nás na síti X: [@iniciativa_PLAN](https://x.com/iniciativa_PLAN)
 
-- `index.html` – Hlavní stránka webu
-- `logo.png` – Logo strany
-- `LICENSE.md` – Licence
-- `AGENTS.md` – Instrukce pro AI agenty
+## Obsah webu
 
-## ⚙️ Technologie
+| Stránka | Cesta |
+| --- | --- |
+| Domů | [`/`](https://stranaplan.cz/) |
+| Priority | [`/priority/`](https://stranaplan.cz/priority/) |
+| Program (22 bodů) | [`/program/`](https://stranaplan.cz/program/) |
+| Připojit se | [`/pripojit-se/`](https://stranaplan.cz/pripojit-se/) |
+| Iniciativa NELŽETE občanům™ | [`/iniciativa/`](https://stranaplan.cz/iniciativa/) |
+| Ústavní návrh | [`/ustavni-navrh/`](https://stranaplan.cz/ustavni-navrh/) |
+| Kontakt | [`/kontakt/`](https://stranaplan.cz/kontakt/) |
 
-- HTML5 + CSS3 (vanilla, bez frameworků)
-- GitHub Pages
+## Vývoj
 
-## 📜 Licence
+```bash
+npm install
+npm run dev       # http://localhost:5173
+npm run build     # build do dist/
+npm run preview   # náhled produkčního buildu
+```
 
-© 2026 Viktor Brunclík. Všechna práva vyhrazena.
+Web je postavený na **Vite** jako statické multi-page (vanilla HTML/CSS/JS, bez frameworku).
+Sdílená hlavička a patička se generují v `vite.config.js`, takže navigace se upravuje
+na jednom místě. Podrobnosti ke konvencím jsou v [AGENTS.md](AGENTS.md).
 
----
+## Nasazení
 
-Vytvořeno s pomocí [Amp](https://ampcode.com).
+Push do větve `master` spustí workflow `.github/workflows/pages.yml`, který web sestaví
+a nasadí na GitHub Pages na doménu `stranaplan.cz` (CNAME je v `public/`).
+
+## Kontakt
+
+[vb@vbtronic.com](mailto:vb@vbtronic.com) – Viktor Brunclík
+
+## Licence
+
+Obsah pod [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.cs),
+zdrojový kód pod [MIT](https://opensource.org/license/mit). Detaily v [LICENSE.md](LICENSE.md).

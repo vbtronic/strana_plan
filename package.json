@@ -1,0 +1,15 @@
+{
+  "name": "plan-iniciativa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Web neoficiální politické iniciativy PLÁN – NELŽETE občanům™",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}
