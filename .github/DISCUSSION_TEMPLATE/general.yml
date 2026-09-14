@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Vítejte v diskuzi strany PLÁN! Dodržujte prosím pravidla slušného chování.
+        Vítejte v diskuzi iniciativy PLÁN! Dodržujte prosím pravidla slušného chování.
         Příspěvky porušující pravidla budou odstraněny.
   - type: textarea
     attributes:

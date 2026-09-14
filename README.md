@@ -9,7 +9,8 @@ efektivitě státu a absolutní otevřenosti vůči občanům.
 > PLÁN je **neoficiální politická iniciativa**. Nejde o registrovanou politickou stranu ani
 > o politické hnutí.
 
-Sledujte nás na síti X: [@iniciativa_PLAN](https://x.com/iniciativa_PLAN)
+Předseda iniciativy: **Viktor Brunclík** – na síti X jako
+[@VBrunclik_CZ](https://x.com/VBrunclik_CZ)
 
 ## Obsah webu
 
@@ -20,6 +21,7 @@ Sledujte nás na síti X: [@iniciativa_PLAN](https://x.com/iniciativa_PLAN)
 | Program (22 bodů) | [`/program/`](https://stranaplan.cz/program/) |
 | Připojit se | [`/pripojit-se/`](https://stranaplan.cz/pripojit-se/) |
 | Iniciativa NELŽETE občanům™ | [`/iniciativa/`](https://stranaplan.cz/iniciativa/) |
+| Předseda | [`/predseda/`](https://stranaplan.cz/predseda/) |
 | Ústavní návrh | [`/ustavni-navrh/`](https://stranaplan.cz/ustavni-navrh/) |
 | Kontakt | [`/kontakt/`](https://stranaplan.cz/kontakt/) |
 

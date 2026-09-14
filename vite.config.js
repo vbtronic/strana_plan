@@ -12,12 +12,14 @@ const NAV = [
   { href: '/program/', label: 'Program' },
   { href: '/pripojit-se/', label: 'Připojit se' },
   { href: '/iniciativa/', label: 'Iniciativa' },
+  { href: '/predseda/', label: 'Předseda' },
   { href: '/ustavni-navrh/', label: 'Ústavní návrh' },
   { href: '/kontakt/', label: 'Kontakt' },
 ]
 
 const EMAIL = 'vb@vbtronic.com'
-const X_URL = 'https://x.com/iniciativa_PLAN'
+const X_HANDLE = '@VBrunclik_CZ'
+const X_URL = 'https://x.com/VBrunclik_CZ'
 
 /** Najde všechny .html stránky v projektu (mimo build a závislosti). */
 function findPages(dir = ROOT, found = []) {
@@ -57,6 +59,7 @@ function header(current) {
         <a class="brand" href="/">
           <img src="/logo.svg" alt="" width="32" height="32">
           <span class="brand-name">PLÁN</span>
+          <span class="brand-sep" aria-hidden="true">·</span>
           <span class="brand-tag">neoficiální iniciativa</span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">
@@ -83,12 +86,13 @@ function footer() {
           <div>
             <p class="footer-head">Kontakt</p>
             <p><a href="mailto:${EMAIL}">${EMAIL}</a></p>
-            <p><a href="${X_URL}" target="_blank" rel="noopener">X: @iniciativa_PLAN</a></p>
+            <p><a href="${X_URL}" target="_blank" rel="noopener">X: ${X_HANDLE}</a></p>
           </div>
           <div>
             <p class="footer-head">Dokumenty</p>
             <p><a href="/program/">Program</a></p>
             <p><a href="/ustavni-navrh/">Ústavní návrh</a></p>
+            <p><a href="/predseda/">Předseda</a></p>
             <p><a href="/ochrana-udaju/">Ochrana údajů</a></p>
           </div>
         </div>

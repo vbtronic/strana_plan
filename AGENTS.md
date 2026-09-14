@@ -23,6 +23,7 @@ priority/               Priority
 program/                Program (22 bodů)
 pripojit-se/            Připojit se
 iniciativa/             NELŽETE občanům™
+predseda/               Předseda (Viktor Brunclík)
 ustavni-navrh/          Ústavní návrh
 kontakt/                Kontakt
 ochrana-udaju/          Ochrana údajů (jen v patičce, noindex)
@@ -47,13 +48,14 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
 - Typografie: Space Grotesk (nadpisy), Inter (text), JetBrains Mono (akcenty, čísla).
 - Styl: tmavý technický manifest – číslované body, monospace popisky, žádné ikony.
 - Kontakt: **vb@vbtronic.com** (uvádí se otevřeně, žádný formulář na webu)
-- X účet: https://x.com/iniciativa_PLAN
+- X účet: https://x.com/VBrunclik_CZ – je to **osobní účet předsedy**, ne účet
+  iniciativy. V textech se o něm tak i mluví („účet předsedy“), ne „sledujte nás“.
 - Licence: obsah **CC BY 4.0**, kód **MIT** (žádné „všechna práva vyhrazena“)
 - Na webu není newsletter, diskuze, analytika ani cookies.
 
 ## Menu
 
-Domů | Priority | Program | Připojit se | Iniciativa | Ústavní návrh | Kontakt
+Domů | Priority | Program | Připojit se | Iniciativa | Předseda | Ústavní návrh | Kontakt
 
 ## Příkazy
 

@@ -1,5 +1,7 @@
 # Pravidla diskuze
 
+Platí pro diskuze (Discussions) a issues v tomto repozitáři iniciativy PLÁN.
+
 ## Pravidla chování
 
 1. **Respektujte ostatní** – žádné urážky, vyhrožování ani diskriminace
@@ -14,4 +16,5 @@
 
 ## Nahlášení
 
-Problémový příspěvek nahlaste přes GitHub nebo nás kontaktujte na stránce [Kontakt](https://vbtronic.github.io/strana_plan/kontakt.html).
+Problémový příspěvek nahlaste přes GitHub, nebo napište na
+[vb@vbtronic.com](mailto:vb@vbtronic.com).
