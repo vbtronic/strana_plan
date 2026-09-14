@@ -47,6 +47,9 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
   Vše přes CSS proměnné v `:root`.
 - Typografie: Space Grotesk (nadpisy), Inter (text), JetBrains Mono (akcenty, čísla).
 - Styl: tmavý technický manifest – číslované body, monospace popisky, žádné ikony.
+- **Logo:** stoupající modrá linie s červeným koncovým bodem (`public/logo.svg`).
+  Nikdy nepoužívat tři vodorovné pruhy v červené/modré/bílé – to je trikolóra
+  a značka existující strany (Trikolora). Logo drží jednu akcentní barvu + jeden bod.
 - Kontakt: **vb@vbtronic.com** (uvádí se otevřeně, žádný formulář na webu)
 - X účet: https://x.com/VBrunclik_CZ – je to **osobní účet předsedy**, ne účet
   iniciativy. V textech se o něm tak i mluví („účet předsedy“), ne „sledujte nás“.
