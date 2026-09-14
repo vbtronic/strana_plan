@@ -25,6 +25,7 @@ pripojit-se/            Připojit se
 iniciativa/             NELŽETE občanům™
 predseda/               Předseda (Viktor Brunclík)
 ustavni-navrh/          Ústavní návrh
+archiv/                 Archiv příspěvků a úprav
 kontakt/                Kontakt
 ochrana-udaju/          Ochrana údajů (jen v patičce, noindex)
 404.html                Chybová stránka
@@ -47,18 +48,20 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
   Vše přes CSS proměnné v `:root`.
 - Typografie: Space Grotesk (nadpisy), Inter (text), JetBrains Mono (akcenty, čísla).
 - Styl: tmavý technický manifest – číslované body, monospace popisky, žádné ikony.
-- **Logo:** stoupající modrá linie s červeným koncovým bodem (`public/logo.svg`).
+- **Logo:** monogram „P“ – tučné bílé P v tmavé zaoblené dlaždici (`public/logo.svg`).
   Nikdy nepoužívat tři vodorovné pruhy v červené/modré/bílé – to je trikolóra
-  a značka existující strany (Trikolora). Logo drží jednu akcentní barvu + jeden bod.
-- Kontakt: **vb@vbtronic.com** (uvádí se otevřeně, žádný formulář na webu)
+  a značka existující strany (Trikolora). Logo je jen písmeno, bez dalších prvků.
+- Kontakt: **kontakt@stranaplan.cz** (uvádí se otevřeně, žádný formulář na webu)
 - X účet: https://x.com/VBrunclik_CZ – je to **osobní účet předsedy**, ne účet
   iniciativy. V textech se o něm tak i mluví („účet předsedy“), ne „sledujte nás“.
-- Licence: obsah **CC BY 4.0**, kód **MIT** (žádné „všechna práva vyhrazena“)
+- Licence: obsah **CC BY 4.0**. Žádná licence na kód (MIT byl odstraněn),
+  žádné „všechna práva vyhrazena“.
 - Na webu není newsletter, diskuze, analytika ani cookies.
 
 ## Menu
 
-Domů | Priority | Program | Připojit se | Iniciativa | Předseda | Ústavní návrh | Kontakt
+Domů | Priority | Program | Připojit se | Iniciativa | Předseda | Ústavní návrh |
+Archiv | Kontakt
 
 ## Příkazy
 

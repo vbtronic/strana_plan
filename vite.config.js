@@ -14,10 +14,11 @@ const NAV = [
   { href: '/iniciativa/', label: 'Iniciativa' },
   { href: '/predseda/', label: 'Předseda' },
   { href: '/ustavni-navrh/', label: 'Ústavní návrh' },
+  { href: '/archiv/', label: 'Archiv' },
   { href: '/kontakt/', label: 'Kontakt' },
 ]
 
-const EMAIL = 'vb@vbtronic.com'
+const EMAIL = 'kontakt@stranaplan.cz'
 const X_HANDLE = '@VBrunclik_CZ'
 const X_URL = 'https://x.com/VBrunclik_CZ'
 
@@ -97,9 +98,8 @@ function footer() {
           </div>
         </div>
         <p class="footer-legal muted">
-          © 2026 Viktor Brunclík · Texty licencovány pod
-          <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="noopener">CC BY 4.0</a>,
-          zdrojový kód pod <a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT</a>.
+          © 2026 Viktor Brunclík · Obsah licencován pod
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="noopener">CC BY 4.0</a>
         </p>
       </div>
     </footer>`

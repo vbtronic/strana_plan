@@ -23,6 +23,7 @@ Předseda iniciativy: **Viktor Brunclík** – na síti X jako
 | Iniciativa NELŽETE občanům™ | [`/iniciativa/`](https://stranaplan.cz/iniciativa/) |
 | Předseda | [`/predseda/`](https://stranaplan.cz/predseda/) |
 | Ústavní návrh | [`/ustavni-navrh/`](https://stranaplan.cz/ustavni-navrh/) |
+| Archiv příspěvků a úprav | [`/archiv/`](https://stranaplan.cz/archiv/) |
 | Kontakt | [`/kontakt/`](https://stranaplan.cz/kontakt/) |
 
 ## Vývoj
@@ -45,9 +46,9 @@ a nasadí na GitHub Pages na doménu `stranaplan.cz` (CNAME je v `public/`).
 
 ## Kontakt
 
-[vb@vbtronic.com](mailto:vb@vbtronic.com) – Viktor Brunclík
+[kontakt@stranaplan.cz](mailto:kontakt@stranaplan.cz) – Viktor Brunclík
 
 ## Licence
 
-Obsah pod [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.cs),
-zdrojový kód pod [MIT](https://opensource.org/license/mit). Detaily v [LICENSE.md](LICENSE.md).
+Obsah pod [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.cs).
+Detaily v [LICENSE.md](LICENSE.md).

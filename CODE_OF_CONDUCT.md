@@ -17,4 +17,4 @@ Platí pro diskuze (Discussions) a issues v tomto repozitáři iniciativy PLÁN.
 ## Nahlášení
 
 Problémový příspěvek nahlaste přes GitHub, nebo napište na
-[vb@vbtronic.com](mailto:vb@vbtronic.com).
+[kontakt@stranaplan.cz](mailto:kontakt@stranaplan.cz).
