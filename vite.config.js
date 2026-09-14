@@ -82,7 +82,7 @@ function footer() {
         <div class="footer-grid">
           <div>
             <p class="footer-mark"><strong>PLÁN</strong> <span>NELŽETE občanům™</span></p>
-            <p class="muted">Neoficiální politická iniciativa. Nejde o registrovanou politickou stranu ani o hnutí.</p>
+            <p class="muted">Neoficiální politická iniciativa. Není registrovaná u Ministerstva vnitra a nekandiduje ve volbách.</p>
           </div>
           <div>
             <p class="footer-head">Kontakt</p>

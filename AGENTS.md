@@ -5,8 +5,14 @@
 Web **neoficiální politické iniciativy PLÁN**. Slogan a značka: **NELŽETE občanům™** –
 iniciativa, která hlídá politické výroky a porovnává je s fakty.
 
-**Není to registrovaná politická strana ani hnutí.** Slovo „strana“ se nesmí objevit
-v textech webu (název repozitáře `strana_plan` je historický, nemění se).
+**Slovo „strana“ se nesmí objevit v textech webu** – ani v záporu („nejsme strana“).
+Místo toho se používá:
+
+- „není registrovaná u Ministerstva vnitra“
+- „není registrovaný politický subjekt“
+- vždy doplněné „a nekandiduje ve volbách“
+
+Doména `stranaplan.cz` a název repozitáře `strana_plan` jsou historické a nemění se.
 Směřování: pravicové, prozápadní.
 
 ## Technologie
