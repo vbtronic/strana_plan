@@ -10,11 +10,10 @@ const NAV = [
   { href: '/', label: 'Domů' },
   { href: '/priority/', label: 'Priority' },
   { href: '/program/', label: 'Program' },
-  { href: '/pripojit-se/', label: 'Připojit se' },
   { href: '/iniciativa/', label: 'Iniciativa' },
+  { href: '/pripojit-se/', label: 'Připojit se' },
   { href: '/predseda/', label: 'Předseda' },
   { href: '/ustavni-navrh/', label: 'Ústavní návrh' },
-  { href: '/archiv/', label: 'Archiv' },
   { href: '/kontakt/', label: 'Kontakt' },
 ]
 
@@ -98,8 +97,8 @@ function footer() {
           </div>
         </div>
         <p class="footer-legal muted">
-          © 2026 Viktor Brunclík · Obsah licencován pod
-          <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="noopener">CC BY 4.0</a>
+          <span>© 2026 Viktor Brunclík</span><span class="footer-legal-sep" aria-hidden="true"> · </span><span>Obsah licencován pod
+          <a href="https://creativecommons.org/licenses/by/4.0/deed.cs" target="_blank" rel="noopener">CC BY 4.0</a></span>
         </p>
       </div>
     </footer>`

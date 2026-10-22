@@ -31,7 +31,6 @@ pripojit-se/            Připojit se
 iniciativa/             NELŽETE občanům™
 predseda/               Předseda (Viktor Brunclík)
 ustavni-navrh/          Ústavní návrh
-archiv/                 Archiv příspěvků a úprav
 kontakt/                Kontakt
 ochrana-udaju/          Ochrana údajů (jen v patičce, noindex)
 404.html                Chybová stránka
@@ -66,8 +65,8 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
 
 ## Menu
 
-Domů | Priority | Program | Připojit se | Iniciativa | Předseda | Ústavní návrh |
-Archiv | Kontakt
+Domů | Priority | Program | Iniciativa | Připojit se | Předseda | Ústavní návrh |
+Kontakt
 
 ## Příkazy
 
