@@ -2,7 +2,7 @@
 
 Web neoficiální politické iniciativy **PLÁN**.
 
-## Obsah (texty, program, priority, ústavní návrh)
+## Obsah (texty, program, priority, návrhy)
 
 Licencováno pod [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.cs).
 

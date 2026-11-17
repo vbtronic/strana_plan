@@ -8,12 +8,12 @@ const ROOT = dirname(fileURLToPath(import.meta.url))
 /** Položky hlavního menu – jediné místo, kde se navigace definuje. */
 const NAV = [
   { href: '/', label: 'Domů' },
-  { href: '/priority/', label: 'Priority' },
+  { href: '/navrhy/', label: 'Návrhy' },
   { href: '/program/', label: 'Program' },
+  { href: '/priority/', label: 'Priority' },
   { href: '/iniciativa/', label: 'Iniciativa' },
   { href: '/pripojit-se/', label: 'Připojit se' },
   { href: '/predseda/', label: 'Předseda' },
-  { href: '/ustavni-navrh/', label: 'Ústavní návrh' },
   { href: '/kontakt/', label: 'Kontakt' },
 ]
 
@@ -43,7 +43,7 @@ function head() {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap">
-    <meta name="theme-color" content="#0B0E14">`
+    <meta name="theme-color" content="#FFFFFF">`
 }
 
 function header(current) {
@@ -90,8 +90,8 @@ function footer() {
           </div>
           <div>
             <p class="footer-head">Dokumenty</p>
+            <p><a href="/navrhy/">Návrhy</a></p>
             <p><a href="/program/">Program</a></p>
-            <p><a href="/ustavni-navrh/">Ústavní návrh</a></p>
             <p><a href="/predseda/">Předseda</a></p>
             <p><a href="/ochrana-udaju/">Ochrana údajů</a></p>
           </div>

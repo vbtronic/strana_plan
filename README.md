@@ -22,7 +22,7 @@ Předseda iniciativy: **Viktor Brunclík** – na síti X jako
 | Připojit se | [`/pripojit-se/`](https://stranaplan.cz/pripojit-se/) |
 | Iniciativa NELŽETE občanům™ | [`/iniciativa/`](https://stranaplan.cz/iniciativa/) |
 | Předseda | [`/predseda/`](https://stranaplan.cz/predseda/) |
-| Ústavní návrh | [`/ustavni-navrh/`](https://stranaplan.cz/ustavni-navrh/) |
+| Návrhy | [`/navrhy/`](https://stranaplan.cz/navrhy/) |
 | Kontakt | [`/kontakt/`](https://stranaplan.cz/kontakt/) |
 
 ## Vývoj

@@ -1,24 +1,23 @@
 /* ===========================================================
    PLÁN – neoficiální politická iniciativa
-   Design: tmavý technický manifest
+   Design: světlý, jednoduchý
    =========================================================== */
 
 :root {
-  --bg: #0b0e14;
-  --bg-2: #11151f;
-  --bg-3: #161b27;
-  --line: #232b3b;
-  --line-soft: #1a2130;
-  --text: #e8eaed;
-  --muted: #9aa4b2;
+  --bg: #ffffff;
+  --bg-2: #f5f6f8;
+  --bg-3: #eceef2;
+  --line: #d9dde3;
+  --line-soft: #e8ebef;
+  --text: #0b0e14;
+  --muted: #4a5361;
   --red: #e23a3a;
   --blue: #2f6fed;
-  /* Světlejší varianty pro TEXT. Plné --red/--blue mají na tmavém pozadí
-     kontrast jen ~4.1–4.5:1, což u drobného písma nesplní WCAG AA. */
-  --red-text: #ff6b6b;
-  --blue-text: #7ba6ff;
-  /* Tmavší červená pro plochu tlačítka, aby bílý text uvnitř měl kontrast 5:1. */
-  --red-solid: #d22f2f;
+  /* Tmavší varianty pro TEXT, aby drobné písmo na bílé splnilo WCAG AA. */
+  --red-text: #c42525;
+  --blue-text: #1f56c8;
+  /* Plocha tlačítka – bílý text uvnitř má kontrast přes 5:1. */
+  --red-solid: #c62828;
 
   --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -333,32 +332,7 @@ main {
 /* ---------- Hero ---------- */
 
 .hero {
-  position: relative;
-  overflow: hidden;
-  padding-block: clamp(4rem, 12vw, 8rem);
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(60rem 30rem at 15% -10%, color-mix(in srgb, var(--blue) 18%, transparent), transparent 70%),
-    radial-gradient(40rem 24rem at 95% 10%, color-mix(in srgb, var(--red) 12%, transparent), transparent 70%);
-  pointer-events: none;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(var(--line-soft) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
-  background-size: 70px 70px;
-  mask-image: radial-gradient(70% 60% at 50% 0%, #000, transparent 75%);
-  opacity: 0.5;
-  pointer-events: none;
+  padding-block: clamp(3rem, 9vw, 6rem);
 }
 
 .hero .wrap {
@@ -384,7 +358,7 @@ main {
 .hero-rule {
   width: 8rem;
   height: 3px;
-  background: linear-gradient(90deg, var(--red), var(--blue));
+  background: var(--red);
   border: 0;
   margin: 1.5rem 0;
 }
@@ -426,12 +400,41 @@ main {
 
 .btn-ghost {
   border-color: var(--line);
-  background: var(--bg-2);
+  background: var(--bg);
   color: var(--text);
 }
 
 .btn-ghost:hover {
   border-color: var(--blue);
+}
+
+/* ---------- Zvýrazněná sekce (návrhy na homepage) ---------- */
+
+.section-highlight {
+  background: var(--bg-2);
+  border-top: 3px solid var(--red);
+}
+
+.section-highlight .pillars {
+  margin-top: 0;
+}
+
+.section-highlight .pillar h3 {
+  font-size: 1.3rem;
+}
+
+.note {
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+}
+
+/* Větší body na stránce Návrhy. */
+.points-big .point h3 {
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+}
+
+.points-big .point p {
+  font-size: 1.08rem;
 }
 
 /* ---------- Pilíře (číslovaný seznam na homepage) ---------- */
@@ -483,7 +486,7 @@ main {
 .card {
   display: block;
   padding: 1.5rem;
-  background: var(--bg-2);
+  background: var(--bg);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   text-decoration: none;
@@ -492,7 +495,7 @@ main {
 
 .card:hover {
   border-color: var(--blue);
-  background: var(--bg-3);
+  background: var(--bg-2);
   transform: translateY(-2px);
 }
 

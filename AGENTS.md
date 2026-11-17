@@ -30,7 +30,7 @@ program/                Program (22 bodů)
 pripojit-se/            Připojit se
 iniciativa/             NELŽETE občanům™
 predseda/               Předseda (Viktor Brunclík)
-ustavni-navrh/          Ústavní návrh
+navrhy/                 Návrhy (omluva, zrušení 292/2004 a 115/1946)
 kontakt/                Kontakt
 ochrana-udaju/          Ochrana údajů (jen v patičce, noindex)
 404.html                Chybová stránka
@@ -49,10 +49,10 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
 - Nová stránka = nová složka s `index.html` + položka v `NAV` a v `public/sitemap.xml`.
   Vite si vstupní body najde sám.
 - URL končí lomítkem (`/program/`), odkazy jsou absolutní od kořene.
-- Barvy: pozadí `#0B0E14`, text `#E8EAED`, červená `#E23A3A`, modrá `#2F6FED`.
+- Barvy (světlý design): pozadí `#FFFFFF`, text `#0B0E14`, červená `#E23A3A`, modrá `#2F6FED`.
   Vše přes CSS proměnné v `:root`.
 - Typografie: Space Grotesk (nadpisy), Inter (text), JetBrains Mono (akcenty, čísla).
-- Styl: tmavý technický manifest – číslované body, monospace popisky, žádné ikony.
+- Styl: světlý, jednoduchý – číslované body, monospace popisky, žádné ikony ani dekorace.
 - **Logo:** monogram „P“ – tučné bílé P v tmavé zaoblené dlaždici (`public/logo.svg`).
   Nikdy nepoužívat tři vodorovné pruhy v červené/modré/bílé – to je trikolóra
   a značka existující strany (Trikolora). Logo je jen písmeno, bez dalších prvků.
@@ -65,8 +65,7 @@ public/                 CNAME, logo.svg, robots.txt, sitemap.xml
 
 ## Menu
 
-Domů | Priority | Program | Iniciativa | Připojit se | Předseda | Ústavní návrh |
-Kontakt
+Domů | Návrhy | Program | Priority | Iniciativa | Připojit se | Předseda | Kontakt
 
 ## Příkazy
 
